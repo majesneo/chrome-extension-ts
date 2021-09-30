@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+.list__item > a {
+  display: block;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.list__item > a:hover {
+  color: red;
+  cursor: pointer;
+}
+.popup {
+  width: 85px;
+  position: relative;
+}
+
+
+.alert {
+  z-index: 99999;
+  position: absolute;
+  width: 100%;
+  background-color: dimgray;
+  max-width: 320px;
+  color: white;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close {
+  right: 5px;
+  top: -1px;
+  position: absolute;
+  cursor: pointer;
+}
